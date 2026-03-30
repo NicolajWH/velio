@@ -97,29 +97,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-white py-14">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Hvordan vil I bruge Velio?
-            </h2>
-            <p className="mt-4 text-lg leading-8 text-gray-600">
-              Velio skal gøre det lettere at arbejde struktureret med nye ejere
-              og velkomst — uden at I skal bygge processen manuelt.
-            </p>
-          </div>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <ScenarioChip text="Ejerskifteovervågning" />
-            <ScenarioChip text="Velkomstbrev" />
-            <ScenarioChip text="Manuel postomdeling" />
-            <ScenarioChip text="Velio sender for os" />
-            <ScenarioChip text="Historik og overblik" />
-          </div>
-        </div>
-      </section>
-
-      <section id="hvordan" className="border-t border-gray-200 bg-white py-20">
+      <section
+        id="hvordan"
+        className="scroll-mt-28 border-t border-gray-200 bg-white py-20"
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-600">
@@ -133,6 +114,24 @@ export default function HomePage() {
               klar handling. Målet er ikke mere administration — men bedre
               timing og mindre spildtid.
             </p>
+          </div>
+
+          <div className="mt-12 max-w-3xl">
+            <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+              Hvordan vil I bruge Velio?
+            </h3>
+            <p className="mt-4 text-lg leading-8 text-gray-600">
+              Velio skal gøre det lettere at arbejde struktureret med nye ejere
+              og velkomst — uden at I skal bygge processen manuelt.
+            </p>
+          </div>
+
+          <div className="mt-8 flex flex-wrap gap-3">
+            <ScenarioChip text="Ejerskifteovervågning" />
+            <ScenarioChip text="Velkomstbrev" />
+            <ScenarioChip text="Manuel postomdeling" />
+            <ScenarioChip text="Velio sender for os" />
+            <ScenarioChip text="Historik og overblik" />
           </div>
 
           <div className="mt-14 grid gap-6 lg:grid-cols-3">
@@ -155,7 +154,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="fordele" className="bg-gray-50 py-20">
+      <section id="fordele" className="scroll-mt-28 bg-gray-50 py-20">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:px-8">
           <div className="lg:col-span-5">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-600">
@@ -171,7 +170,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid gap-4 lg:col-span-7 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-2 lg:col-span-7">
             <BenefitItem text="Målrettet antenneforeninger" />
             <BenefitItem text="Mindre manuelt arbejde" />
             <BenefitItem text="Hurtigere kontakt til nye beboere" />
@@ -182,7 +181,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="kontakt" className="border-t border-gray-200 bg-white py-20">
+      <section
+        id="kontakt"
+        className="scroll-mt-28 border-t border-gray-200 bg-white py-20"
+      >
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-600">
             Kontakt
